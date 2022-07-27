@@ -10,6 +10,7 @@ function clrScreen(){ // this function clear the screen.
 }
 
 function showAnswer(){ // this function show answer when we click the sign '='.
-    var Answer = eval(screen.value)
+    var Answer = eval(screen.value) // it evaluate the values 
     screen.value = Answer
+    // 
 }
